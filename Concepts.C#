@@ -1,0 +1,28 @@
+//variables are storage locations. They store data that is later retrieved by a function. Variables store data in by using values.
+//An example of a variable would be something like:
+{
+    int myInt = 5;
+
+    void Start(){
+        myInt = MultiplyByTwo(myInt);
+        Debug.Log (myInt);
+    }
+}
+//Computer programming uses iteration alot. We refrence back to data before stated to be used later.
+
+//A subroutine is in the most basic sense a string of program plans that enact a certian task. These are most often bundeled together as a unit. 
+//Once packaged into a unit a subroutine can be used in programs. 
+//These may be defined in programs or in seperate libraries. 
+//They are also usable with multiple programs. 
+//Last of all, these subroutines are labeled different depending on the coding language itself. 
+
+//Now that we have described what our car is, we can use a function to make it do something. 
+// An exampe would be:
+int MultiplyByTwo(myInt){
+    int ret;
+
+    ret = number * 2;
+
+    return ret;
+} //<-- This outputs the value of ret
+//<-- The results of this running would be 10 because its 5 multiplied by 2
